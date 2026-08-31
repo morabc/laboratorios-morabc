@@ -20,9 +20,7 @@ void yyerror(const char *msg) { fprintf(stderr, "Error: %s\n", msg); }
  *
  * Las acciones semánticas calculan el valor de cada producción:
  *   $$   = valor del no-terminal del lado izquierdo (resultado)
- *   $1, $2, $3, … = valores de los símbolos del lado derecho
- */
-
+ *   $1, $2, $3, … = valores de los símbo
 input:
     /* vacío */
   | input linea
